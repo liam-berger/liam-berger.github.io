@@ -379,10 +379,22 @@ h1 {
 }
 
 .entry-item h3,
-.skill-group h3 {
+.skill-group h3,
+.recognition-group h3 {
   margin: 0 0 6px;
   font-size: 16px;
   line-height: 1.35;
+}
+
+.code-link {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.code-link code {
+  font: inherit;
+  font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 .detail-list {
@@ -405,12 +417,7 @@ h1 {
   gap: 22px;
 }
 
-.skill-group p {
-  margin-bottom: 0;
-  color: var(--muted);
-  font-size: 15px;
-}
-
+.skill-list,
 .award-list {
   display: grid;
   gap: 5px;
