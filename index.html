@@ -278,21 +278,134 @@
 
       <div class="entry-list">
         <article class="entry-item">
-          <h3>570-amp resistive spot welder</h3>
+          <div class="entry-meta">
+            <span>Path-Following Robot Car</span>
+            <span>March 2026 - June 2026</span>
+          </div>
+          <h3>
+            <a href="https://github.com/liam-berger/ProjectCarECE3" target="_blank" rel="noopener noreferrer">
+              ProjectCarECE3
+            </a>
+          </h3>
           <ul class="detail-list">
-            <li>Designed and fabricated a high-current transformer circuit for rapid spot heating.</li>
-            <li>Built a bent sheet-metal enclosure and brazed copper leads for thermal management and rigidity.</li>
-            <li>Produced engineering drawings, sourced components, manufactured the device, and demoed it publicly.</li>
+            <li>Implemented PD control with exponential moving average smoothing and sensor fusion to estimate distance
+              from the center line.</li>
+            <li>Tuned control parameters for an optimized completion time while maintaining stability through sharp
+              high-speed turns.</li>
           </ul>
         </article>
 
         <article class="entry-item">
-          <h3>CNC milling machine frame simulation</h3>
+          <div class="entry-meta">
+            <span>G-Class Model Rocket</span>
+            <span>January 2026 - March 2026</span>
+          </div>
+          <h3>High-power model rocket design and fabrication</h3>
           <ul class="detail-list">
-            <li>Modeled a welded-steel gantry CNC frame with structural members, joint interfaces, and assembly
-              constraints.</li>
-            <li>Used static FEA to evaluate spindle-load deflection and gantry stiffness.</li>
-            <li>Balanced cost, material strength, tolerances, and load requirements in component selection.</li>
+            <li>Designed and launched a 26-inch-tall, 2.25-inch outer-diameter rocket with a G-class motor and
+              roughly 1000-meter apogee.</li>
+            <li>Optimized stability and apogee in OpenRocket using realistic flight simulations to tune component
+              dimensions.</li>
+            <li>Fabricated a lightweight carbon-fiber composite body tube, laser-cut fins, 3D-printed nose cone, and
+              recovery mechanism.</li>
+          </ul>
+        </article>
+
+        <article class="entry-item">
+          <div class="entry-meta">
+            <span>DesmosCurves</span>
+            <span>December 2023</span>
+          </div>
+          <h3>
+            <a href="https://github.com/liam-berger/desmoscurves" target="_blank" rel="noopener noreferrer">
+              Interactive Bézier curve editor and Desmos exporter
+            </a>
+          </h3>
+          <ul class="detail-list">
+            <li>Built an interactive Pygame editor for cubic Bézier splines with zooming, dragging, ghost segments, and
+              sharp-point controls.</li>
+            <li>Integrated geometric modeling tools for anchor and handle manipulation, coordinate transforms, and
+              real-time curve rendering.</li>
+            <li>Converted hand-drawn curves into Desmos-compatible parametric LaTeX using Bézier basis functions and
+              segment masking.</li>
+            <li>Added JSON persistence, versioned save/load behavior, Python package installation, and a CLI entry point
+              for reusable tooling.</li>
+          </ul>
+        </article>
+
+        <article class="entry-item">
+          <div class="entry-meta">
+            <span>Torch-eCpG</span>
+            <span>July 2022 - November 2023</span>
+          </div>
+          <h3>
+            <a href="https://github.com/kordk/torch-ecpg" target="_blank" rel="noopener noreferrer">
+              GPU-optimized eQTM MLR Python package
+            </a>
+          </h3>
+          <ul class="detail-list">
+            <li>Developed a GPU-accelerated PyTorch pipeline for genome-wide Pearson correlations and multiple linear
+              regressions.</li>
+            <li>Engineered region-aware cis, distal, and trans filters with scalable chunked memory management and
+              asynchronous multiprocessing.</li>
+            <li>Built a CLI for data ingestion, cleaning, annotation, high-throughput correlation/regression, and
+              memory-safe chunk optimization.</li>
+            <li>Applied tensor algebra, vectorization, Student t approximations, and p-value filtering to analyze
+              methylation-gene associations.</li>
+          </ul>
+        </article>
+
+        <article class="entry-item">
+          <div class="entry-meta">
+            <span>Discmos</span>
+            <span>November 2023</span>
+          </div>
+          <h3>
+            <a href="https://github.com/liam-berger/discmos" target="_blank" rel="noopener noreferrer">
+              GPU-accelerated Discord emoji mosaic generator
+            </a>
+          </h3>
+          <ul class="detail-list">
+            <li>Built a PyTorch computer vision pipeline that reconstructs images as custom Discord emoji mosaics with
+              GPU acceleration.</li>
+            <li>Implemented vectorized nearest-neighbor tile matching in HSV space with configurable channel weighting
+              to tune mosaic fidelity.</li>
+            <li>Converted tile matching into a batched similarity-search problem using broadcasted tensor arithmetic and
+              a parallelized argmin.</li>
+            <li>Developed a CLI workflow for emoji scraping, regex-based dataset filtering, asset downloading, mosaic
+              generation, and export.</li>
+          </ul>
+        </article>
+
+        <article class="entry-item">
+          <div class="entry-meta">
+            <span>CNC Milling Machine Frame</span>
+            <span>March 2022 - September 2023</span>
+          </div>
+          <h3>CAD and FEA simulation project</h3>
+          <ul class="detail-list">
+            <li>Modeled a welded-steel gantry CNC milling machine with structural members, joint interfaces, and
+              assembly constraints.</li>
+            <li>Ran iterative static FEA to evaluate spindle-load deflection and gantry stiffness, then refined geometry
+              based on simulation results.</li>
+            <li>Selected components by balancing cost, material strength, tolerances, and load requirements for an
+              efficient design.</li>
+          </ul>
+        </article>
+
+        <article class="entry-item">
+          <div class="entry-meta">
+            <span>570-Amp Resistive Spot Welder</span>
+            <span>December 2022</span>
+          </div>
+          <h3>Engineered and fabricated high-current welding system</h3>
+          <ul class="detail-list">
+            <li>Hand-wound a high-amperage transformer circuit capable of raising spot metal temperature to 1658 C in
+              2 seconds.</li>
+            <li>Designed and fabricated a bent sheet-metal enclosure and brazed copper leads for thermal management and
+              rigidity.</li>
+            <li>Generated detailed engineering drawings, sourced components, manufactured the system, and demoed it to
+              conference attendees.</li>
           </ul>
         </article>
       </div>
