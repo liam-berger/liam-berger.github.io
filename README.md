@@ -1,3 +1,3 @@
 # liam-berger.github.io
 
-Minimal academic portfolio site for Liam Berger, built with static HTML, CSS, and a small theme-toggle script.
+My minimal academic portfolio site, built with static HTML, CSS, and JS.
